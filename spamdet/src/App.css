@@ -1,0 +1,36 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  width:"100%";
+  font-family: Arial, sans-serif;
+  background-color: gray;
+  color:#F8F9FA;
+}
+
+/* Headings */
+h1, h2 {
+  color: #222;
+}
+
+/* Button hover effect */
+button:hover {
+  opacity: 0.9;
+}
+
+/* Textarea styling */
+textarea {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+/* Unordered list styling */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
